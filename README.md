@@ -61,7 +61,7 @@ To interface an HC-SR04 ultrasonic sensor with an Arduino Uno and control a digi
 
 # program:
 
-```
+```c++
 const int trigPin = 9;
 const int echoPin = 10;
 
@@ -89,3 +89,12 @@ void loop() {
   delay(500);
 }
 ```
+# OUTPUT:
+
+<img width="1332" height="692" alt="image" src="https://github.com/user-attachments/assets/1f23bf8f-ce9b-4151-b769-11ed41caafc9" />
+<img width="1919" height="822" alt="image" src="https://github.com/user-attachments/assets/869f6c28-30a2-433b-acef-462d2df1f0dd" />
+<img width="1919" height="832" alt="image" src="https://github.com/user-attachments/assets/2278b9b9-5dac-4185-8771-ead275272894" />
+
+# Result:
+
+The ultrasonic sensor was successfully interfaced with the development board in Tinkercad Circuits. The distance of an object was measured using the HC-SR04 sensor, and the LED was successfully controlled as a digital output according to the measured distance. The simulation worked successfully and demonstrated distance-based digital output control.
