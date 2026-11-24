@@ -84,7 +84,6 @@ To interface an HC-SR04 ultrasonic sensor with an Arduino Uno and control a digi
 10.Display or monitor the measured distance.
 
 11.Repeat the process continuously.
-
 12.Stop
 
 # program:
